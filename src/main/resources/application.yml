@@ -1,0 +1,20 @@
+server:
+  port: 8080
+student:
+  name: huayang.yuan
+  age: 30
+spring:
+   mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+   datasource:
+    url: jdbc:mysql://192.168.74.128:3306/student?characterEncoding=UTF-8
+    username: admin
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+   jpa:
+    hibernate:
+      ddl-auto: update #新增数据库连接必备的参数 
+  
+ 
